@@ -1,0 +1,95 @@
+.user {
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    background: -webkit-linear-gradient(yellow, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-size: 8em;
+    white-space: nowrap;
+    font-size: 50px;
+    z-index: 1000;
+    font-family: 'Bangers',
+        cursive;
+    text-shadow: 5px 5px 0 rgba(0, 0, 0, 0.7);
+    transform: skew(20deg, 10deg);
+}
+
+body {
+    background: #d8d8d8;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    font-size: 15px;
+}
+
+button {
+    border: solid 1px black;
+    padding: 2% 5%;
+    margin: 2%;
+}
+
+.hero-list-item.dc {
+    background-color: #7ebde7;
+}
+
+.hero-list-item.marvel {
+    background-color: #d84b4b;
+}
+
+button.action.dc:hover {
+    background-color: #4CA4DD;
+}
+
+button.action.marvel:hover {
+    background-color: #C61213;
+}
+
+button.action:hover {
+    background-color: white;
+    color: #343F51;
+}
+
+button.remove {
+    float: bottom;
+    width: 32px;
+    height: 32px;
+    background-color: inherit;
+    right: 51%;
+    border: none;
+}
+
+button.remove:before {
+    content: 'X';
+    color: black;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+}
+
+button.remove:hover {
+    opacity: .3;
+}
+
+.hero-list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    width: 75%;
+    padding: 16px;
+    margin-left: 160px;
+    box-shadow: 2px 2px 5px #696969;
+}
+
+.hero-list-item {
+    display: block;
+    height: 32px;
+    width: 100%;
+    border-top: 1px dotted #A9A9A9;
+    border-top: 1px dotted #A9A9A9;
+    text-align: center;
+    line-height: 2;
+    color: #333333;
+
+}
