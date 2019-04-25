@@ -3,7 +3,6 @@
     font-weight: normal;
     color: #fff;
     background: -webkit-linear-gradient(yellow, orange);
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-size: 8em;
@@ -73,19 +72,12 @@ button.remove:hover {
 }
 
 .hero-list {
-    position: absolute;
-    background-color: white;
+    background-color: yellow;
     border: 1px solid #E5E5E5;
-    width: 75%;
-    padding: 16px;
-    margin-left: 160px;
     box-shadow: 2px 2px 5px #696969;
 }
 
 .hero-list-item {
-    display: block;
-    height: 32px;
-    width: 100%;
     border-top: 1px dotted #A9A9A9;
     border-top: 1px dotted #A9A9A9;
     text-align: center;
