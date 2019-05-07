@@ -6,7 +6,7 @@ import {cancelButton} from './cancelButton.js'
 import{body} from './body.js'
 export class heroListUserView{
     view(vnode){
-        return('.user-view',[
+        return m('.user-view',[
             m(body,{
 				name: vnode.attrs.name,
                 onclick:(universe,pk) =>{vnode.attrs.addSuperHero(universe,pk)},
